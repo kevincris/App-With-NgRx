@@ -1,0 +1,21 @@
+
+body {
+    margin: 0;
+}
+
+main {
+    margin: 30px;
+}
+
+.menu-button {
+    background: #1b75bb;
+    color: white;
+    border: none;
+    cursor:pointer;
+    outline:none;
+}
+
+.mat-toolbar.mat-primary{
+    background: #1b75bb !important; 
+}
+

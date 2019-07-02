@@ -1,0 +1,35 @@
+
+<div class="courses-panel">
+
+    <h2 class="title">Users Data</h2>
+
+    <div class="counters">
+        <p>Online Users: {{promoTotal$ | async}}</p>
+    </div>
+
+    <mat-tab-group>
+
+        <mat-tab label="Administrator">
+
+            <courses-card-list
+                    [courses]="beginnerCourses$ | async">
+
+            </courses-card-list>
+
+        </mat-tab>
+
+        <mat-tab label="Partner">
+
+            <courses-card-list
+                    [courses]="advancedCourses$ | async"
+
+            ></courses-card-list>
+
+        </mat-tab>
+
+    </mat-tab-group>
+
+
+
+</div>
+
